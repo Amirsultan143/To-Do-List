@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.heading{
+    color: white;
+    filter: contrast(200%);
+}
+.myinp{
+    all: unset;
+    background-color:white;
+    color: black;
+    border: none;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    box-shadow: 4px 4px 10px blue;
+    filter: contrast(200%);
+    border-radius: 1rem;
+}
+.gap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* margin: auto; */
+    margin-top: 1rem;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.btn{
+    all: unset;
+    background-color:blue;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 2px white;
+    border-radius: 0.4rem;
+}
+
+.myDel{
+    all: unset;
+    background-color:red;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 2px white;
+    border-radius: 0.4rem;
+    margin-top: 0.2rem;
+}
